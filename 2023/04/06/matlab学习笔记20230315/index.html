@@ -6,13 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Archives: 2022/11 | Hexo</title>
+  <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="matlab学习笔记20230315char为数组 string为标量 str转为char	c &#x3D; a{1}	str_a,char_b char转str：a &#x3D; string(b)	%str_a,char(b) a &#x3D; char(‘m’,’n’,’p’)	char强制转换为str，末尾空格补齐 创建字符串input(‘’,’s’) repmat(‘aajaj’,m,n">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/archives/2022/11/index.html">
+<meta property="og:url" content="http://example.com/2023/04/06/matlab%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B020230315/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="matlab学习笔记20230315char为数组 string为标量 str转为char	c &#x3D; a{1}	str_a,char_b char转str：a &#x3D; string(b)	%str_a,char(b) a &#x3D; char(‘m’,’n’,’p’)	char强制转换为str，末尾空格补齐 创建字符串input(‘’,’s’) repmat(‘aajaj’,m,n">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2023-04-06T00:53:10.347Z">
+<meta property="article:modified_time" content="2023-03-16T03:06:28.861Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -150,103 +154,169 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-matlab学习笔记20230315" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="matlab学习笔记20230315"><a href="#matlab学习笔记20230315" class="headerlink" title="matlab学习笔记20230315"></a>matlab学习笔记20230315</h1><p>char为数组</p>
+<p>string为标量</p>
+<p>str转为char	c &#x3D; a{1}	str_a,char_b</p>
+<p>char转str：a &#x3D; string(b)	%str_a,char(b)</p>
+<p>a &#x3D; char(‘m’,’n’,’p’)	char强制转换为str，末尾空格补齐</p>
+<h2 id="创建字符串"><a href="#创建字符串" class="headerlink" title="创建字符串"></a>创建字符串</h2><p>input(‘’,’s’)</p>
+<p>repmat(‘aajaj’,m,n)重复4x3</p>
+<p>[]粘合多个字符串为1个</p>
+<p>strlength()求str长度</p>
+<p>字符串捏合函数：strcat</p>
+<p>输出字符串用sprintf() </p>
+<p>sprintf()返回str</p>
+<h2 id="比较字符"><a href="#比较字符" class="headerlink" title="比较字符"></a>比较字符</h2><p>strcmp()比较两字符是否相同</p>
+<p>tips：与isequal的区别在于，isequal通过ascii比较，strcmp直接比较，具体区别isequal(‘a’,97)</p>
+<p>strncmp()	比较前n位字符</p>
+<p>strcmpi()	对大小写不敏感，比较两字符是否相等</p>
+<p>strfind(‘a’,’b)	在a中寻找b，返回位置</p>
+<p>strrep(‘’,’’,’’)	字符串中a代替b</p>
+<p>count()	计数</p>
+<p>strtok(‘’，‘m’)	以m为标准分割字符，分割结果m在后一个中，只分割一次，若m&#x3D;adjkal多个字符，则逻辑或分割</p>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
       
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2022" class="archive-year">2022</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2022/11/07/%E7%A0%94%E7%A9%B6%E5%83%A7%E6%97%A5%E8%AE%B0/" class="archive-article-date">
-  	<time datetime="2022-11-07T08:11:57.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-11-07</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2022/11/07/%E7%A0%94%E7%A9%B6%E5%83%A7%E6%97%A5%E8%AE%B0/">研究僧日记</a>
-    </h1>
-  
+      
 
-        <div class="article-info info-on-right">
-          
-          
+      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2023/04/06/matlab%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B020230315/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2022/11/06/%E7%AC%AC%E4%B8%80%E6%AC%A1blog/" class="archive-article-date">
-  	<time datetime="2022-11-06T04:36:36.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-11-06</time>
-</a>
+<nav id="article-nav">
+  
+    <a href="/2023/04/06/matlab%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B020230316/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          (no title)
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2023/04/06/matlab%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B020230314/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"></div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2022/11/06/%E7%AC%AC%E4%B8%80%E6%AC%A1blog/">第一次blog</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2022/11/06/hello-world/" class="archive-article-date">
-  	<time datetime="2022-11-06T04:34:41.561Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2022-11-06</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2022/11/06/hello-world/">Hello World</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
 
 
           </div>
@@ -256,7 +326,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2022 John Doe
+    		&copy; 2023 John Doe
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
@@ -269,8 +339,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,

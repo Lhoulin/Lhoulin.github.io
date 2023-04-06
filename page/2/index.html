@@ -6,11 +6,11 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Archives | Hexo</title>
+  <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/archives/index.html">
+<meta property="og:url" content="http://example.com/page/2/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="John Doe">
@@ -152,232 +152,455 @@
           <div id="js-content" class="content-ll">
             
   
-  
+    <article id="post-matlab学习笔记20230313" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="matlab学习笔记20230313"><a href="#matlab学习笔记20230313" class="headerlink" title="matlab学习笔记20230313"></a>matlab学习笔记20230313</h1><p>linspace 返回a到b的等距100向量</p>
+<p>close all 关闭画布</p>
+<h2 id="subplot"><a href="#subplot" class="headerlink" title="subplot"></a>subplot</h2><p>subplot（n,n,i）n行n列激活第i个</p>
+<p>在一张图上画多条线，用for循环，当在画第i个函数时：</p>
+<p>plot(x,y,’LineWidth’,4,’DisplayName’,[‘xxx’ num2str(i) ‘xxx’])</p>
+<p>末尾legend(‘show’)</p>
+<p>其中LineWidth为线宽度，DisplayName为第i条线加注释,num2str将i以数字形式加入到注释里，legend命令打开循环注释。</p>
+<h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>fprintf(‘%-2.5d’,i)左对齐，两个字符，5个小数位</p>
+<h2 id="while"><a href="#while" class="headerlink" title="while"></a>while</h2><p>当不知循环次数时，用while循环</p>
+<p>for对确定矩阵循环</p>
+<p>while condition</p>
+<p>​	action</p>
+<p>end</p>
+<p>find(a&#x3D;&#x3D;x,n,’first’&#x2F;‘last’),n为找几个，‘first’为从前开始找</p>
+<h2 id="时间函数"><a href="#时间函数" class="headerlink" title="时间函数"></a>时间函数</h2><p>tic；</p>
+<p>xxxxx</p>
+<p>toc；</p>
+<p>测量中间程序花费时间</p>
+<h2 id="多变量输出"><a href="#多变量输出" class="headerlink" title="多变量输出"></a>多变量输出</h2><p>function [a,c]&#x3D;funname()</p>
+<p>aaa</p>
+<p>end</p>
+<p>a &#x3D; funname()输出第一个返回值</p>
+<p>若想要后面返回值，则需要[~,b] &#x3D; funname()</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
       
       
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2023" class="archive-year">2023</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2023/04/06/%E4%BC%98%E5%8C%96%E6%96%B9%E6%B3%95%E5%A4%8D%E4%B9%A0/" class="archive-article-date">
-  	<time datetime="2023-04-06T00:53:10.403Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-04-06</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
+      
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2023/04/06/matlab%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B020230313/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2023/04/06/%E5%BF%83%E7%90%86%E5%92%A8%E8%AF%A2/" class="archive-article-date">
-  	<time datetime="2023-04-06T00:53:10.397Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-04-06</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-        <div class="clearfix"></div>
-    </header>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-matlab学习笔记20230312" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="matlab学习笔记20230312"><a href="#matlab学习笔记20230312" class="headerlink" title="matlab学习笔记20230312"></a>matlab学习笔记20230312</h1><h2 id="switch选择语句"><a href="#switch选择语句" class="headerlink" title="switch选择语句"></a>switch选择语句</h2><p>switch case中，若有多个case对应一个输出，则可用{}括起来</p>
+<h2 id="isletter"><a href="#isletter" class="headerlink" title="isletter"></a>isletter</h2><p>判断是否为str或char变量</p>
+<h2 id="isempty"><a href="#isempty" class="headerlink" title="isempty"></a>isempty</h2><p>输入变量为空返回1正确</p>
+<h2 id="isa"><a href="#isa" class="headerlink" title="isa"></a>isa</h2><p>判断变量是否为。。。isa（para,’type’）</p>
+<h2 id="iskeyword"><a href="#iskeyword" class="headerlink" title="iskeyword"></a>iskeyword</h2><p>判断是否为关键字</p>
+<h2 id="for循环语句"><a href="#for循环语句" class="headerlink" title="for循环语句"></a>for循环语句</h2><p>用for循环循环输入</p>
+<p>建立空向量并循环写入</p>
+<p>循环写入向量效率低，因为要向内存索要空间，并拷贝数据</p>
+<p>因此向量预分配</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2023/04/06/matlab%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B020230312/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2023/04/06/%E6%95%B0%E6%A8%A1%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="archive-article-date">
-  	<time datetime="2023-04-06T00:53:10.387Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-04-06</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-        <div class="clearfix"></div>
-    </header>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-matlab学习笔记20230311" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="if判断语句"><a href="#if判断语句" class="headerlink" title="if判断语句"></a>if判断语句</h2><p>字符串输入用 ‘s’</p>
+<p>比较运算符优先级大于逻辑运算符，if判断后买你需要括号</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2023/04/06/matlab%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B020230311/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2023/04/06/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="archive-article-date">
-  	<time datetime="2023-04-06T00:53:10.381Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-04-06</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-        <div class="clearfix"></div>
-    </header>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-matlab学习笔记20230309" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="matlab学习笔记"><a href="#matlab学习笔记" class="headerlink" title="matlab学习笔记"></a>matlab学习笔记</h1><p>ps.之前的都没记，以后会补上</p>
+<h2 id="绘图命令"><a href="#绘图命令" class="headerlink" title="绘图命令"></a>绘图命令</h2><h3 id="数据加载"><a href="#数据加载" class="headerlink" title="数据加载"></a>数据加载</h3><p>load xx 加载数据</p>
+<p>save filename matname -ascii -append 存储文件</p>
+<h3 id="绘图命令-1"><a href="#绘图命令-1" class="headerlink" title="绘图命令"></a>绘图命令</h3><p>plot(多组数据，‘颜色形状’)	对点线操作</p>
+<p>hold 擦除开关，一般hold on	对画布操作</p>
+<p>figure()	创建一个新图片</p>
+<p>xlabel()	x轴信息	对画布坐标轴</p>
+<p>ylabel()	y轴信息</p>
+<p>title()	图片名称</p>
+<p>bar()	直方图</p>
+<h3 id="用户自定义函数"><a href="#用户自定义函数" class="headerlink" title="用户自定义函数"></a>用户自定义函数</h3><p>function output &#x3D; funname(input)</p>
+<p>%注释功能</p>
+<p>%计算形式	</p>
+<p>%变量格式</p>
+<p>end</p>
+<p>定义函数</p>
+<p>函数参数向量化需要.^ or .*，代表向量对应位置值运算</p>
+<p>字符串输入并且函数没有返回值，则可以在command命令中写为没有括号形式引用。	</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2023/04/06/matlab%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B020230309/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2023/04/06/matlab%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B020230329/" class="archive-article-date">
-  	<time datetime="2023-04-06T00:53:10.374Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-04-06</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-        <div class="clearfix"></div>
-    </header>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-GIT学习" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="GIT学习"><a href="#GIT学习" class="headerlink" title="GIT学习"></a>GIT学习</h1><p>我的建议还是去好好玩几遍 <a target="_blank" rel="noopener" href="https://learngitbranching.js.org/?locale=zh_CN">https://learngitbranching.js.org/?locale=zh_CN</a> git 游戏, 理解一下 git 的底层逻辑, 不然以后你碰到 git 问题真的挺恶心的. 如果你真的把版本控制弄的一团糟, <a target="_blank" rel="noopener" href="https://ohshitgit.com/">https://ohshitgit.com/</a> 是你的解药.</p>
+<p>git add	添加文件到仓库<br>git commit -m<br>git push<br>git pull<br>git checkout</p>
+<h2 id="汇总网站"><a href="#汇总网站" class="headerlink" title="汇总网站"></a>汇总网站</h2><p>fdfangzhou.top&#x2F;posts&#x2F;4234733254.html&#x2F;</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2023/04/06/GIT%E5%AD%A6%E4%B9%A0/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2023/04/06/matlab%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B020230322/" class="archive-article-date">
-  	<time datetime="2023-04-06T00:53:10.369Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-04-06</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-        <div class="clearfix"></div>
-    </header>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-Daily Note" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="Daily-Note"><a href="#Daily-Note" class="headerlink" title="Daily Note"></a>Daily Note</h1><h1 id="2023-04-06"><a href="#2023-04-06" class="headerlink" title="2023.04.06"></a>2023.04.06</h1><p>6.30起床</p>
+<p>晨跑2000m，引体向上可以做半程</p>
+<h2 id="進歩のところ-我真棒！！！！"><a href="#進歩のところ-我真棒！！！！" class="headerlink" title="進歩のところ 我真棒！！！！"></a>進歩のところ 我真棒！！！！</h2><p>咬牙坚持2000m完成</p>
+<p>引体向上突破半程引体·</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2023/04/06/Daily%20Note/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2023/04/06/matlab%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B020230320/" class="archive-article-date">
-  	<time datetime="2023-04-06T00:53:10.363Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-04-06</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-        <div class="clearfix"></div>
-    </header>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-APDL学习笔记" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="APDL学习笔记"><a href="#APDL学习笔记" class="headerlink" title="APDL学习笔记"></a>APDL学习笔记</h1><h2 id="几何模型创建"><a href="#几何模型创建" class="headerlink" title="几何模型创建"></a>几何模型创建</h2><h3 id="点线面体"><a href="#点线面体" class="headerlink" title="点线面体"></a>点线面体</h3><p>k,net,x,y,z	点</p>
+<p>L,P1,P2	线</p>
+<p>A,P1,P2	面</p>
+<p>V,P1,P2	体</p>
+<p>vdrag	面偏移创建体</p>
+<p>vrotat</p>
+<p>voffst</p>
+<p>KESL，LESL，ASEL，VSEL	选择点</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2023/04/06/APDL%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2023/04/06/matlab%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B020230316/" class="archive-article-date">
-  	<time datetime="2023-04-06T00:53:10.353Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-04-06</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-        <div class="clearfix"></div>
-    </header>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-ansys学习笔记" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="ansys学习笔记"><a href="#ansys学习笔记" class="headerlink" title="ansys学习笔记"></a>ansys学习笔记</h1><h2 id="变量赋值"><a href="#变量赋值" class="headerlink" title="变量赋值"></a>变量赋值</h2><p>%i% &#x3D; xxxxxxixxxx	字符转为数字</p>
+<p>*afun,deg	角度输入</p>
+<p>*afun,rad	弧度输入</p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2023/04/06/ansys%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2023/04/06/matlab%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B020230315/" class="archive-article-date">
-  	<time datetime="2023-04-06T00:53:10.347Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-04-06</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
 
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2023/04/06/matlab%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B020230314/" class="archive-article-date">
-  	<time datetime="2023-04-06T00:53:10.329Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-04-06</time>
-</a>
-        </div>
-    	 
-        <div class="article-info info-on-right">
-          
-          
+        
+        
+    </div>
+</aside>
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
 
-    
+
+
+  
+  
     <nav id="page-nav">
-      <span class="page-number current">1</span><a class="page-number" href="/archives/page/2/">2</a><a class="extend next" rel="next" href="/archives/page/2/">Next &amp;raquo;</a>
+      <a class="extend prev" rel="prev" href="/">&amp;laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
     </nav>
   
 
@@ -401,9 +624,9 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: false,
+		isHome: true,
 		isPost: false,
-		isArchive: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
